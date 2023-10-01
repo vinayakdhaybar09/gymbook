@@ -1,0 +1,130 @@
+.member-details-container{
+    padding: 20px;
+}
+
+.member-details-btn-div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.back-btn{
+    background-color: #1F2431;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: fit-content;
+    padding: 8px 10px;
+    border-radius: 4px;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.edit-btn{
+    color: #1F2431;
+    display: flex;
+    align-items: center;
+    gap:4px ;
+    cursor: pointer;
+    margin-right: 10px;
+    border-bottom: 2px solid white;
+    transition: all 0.5s ease-in-out;
+}
+
+.edit-btn:hover{
+    color: #1F2431;
+    border-bottom: 2px solid #1F2431;
+}
+
+.back-btn svg{
+    font-size: 20px;
+}
+
+.back-btn:hover{
+    background-color: #29334b;
+}
+
+.member-details-div{
+    display: flex;
+    margin-top: 32px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.member-details-img-div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    width: 40%;
+}
+
+.member-details-img-active{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 160px;
+    border: 5px solid #146D12;
+    padding: 2px;
+}
+
+.member-details-img-inactive{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 160px;
+    border: 5px solid #DA3C30;
+    padding: 2px;
+}
+
+.member-details-status-active{
+    color: #146D12;
+    font-size: 600;
+}
+
+.member-details-status-inactive{
+    color:#DA3C30;
+    font-size: 600;
+}
+
+.member-details-contact-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.member-details-contact-icon-call{
+    font-size: 22px;
+    color: #0463D2;
+    cursor: pointer;
+}
+
+.member-details-contact-icon-whatsapp{
+    font-size: 26px;
+    color: #146D12;
+    cursor: pointer;
+}
+
+.member-details-info{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.member-details-flex{
+    display: flex;
+    align-items: center;
+}
+
+.member-details-label{
+    color: #1F2431;
+    width: 40%;
+}
+
+.member-details-value{
+    color: #1F2431;
+    width: 60%;
+}
